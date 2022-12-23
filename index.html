@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="time">
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+
+        <div class="card">
+            <div id="Run" class="hud">
+                <button id="PlayCircle"><img src="./assets/playCircle.svg" alt=""></button>
+                <button id="StopWatch"><img src="./assets/stopWatch.svg" alt=""></button>
+            </div>
+            <div id="Stop" class="hud hide">
+                <button id="PauseCircle"><img src="./assets/pauseCircle.svg" alt=""></button>
+                <button id="StopCircle"><img src="./assets/stopCircle.svg" alt=""></button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="soundHud">
+            <div class="sound">
+                <button id="SoundOff" class="sound hide"><img src="./assets/volumeOn.svg" alt=""></button>
+                <button id="SoundOn" class="sound"><img src="./assets/volumeMute.svg" alt=""></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/main.js" type="module"></script>
+</body>
+</html>

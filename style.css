@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+
+    background-color: black;
+}
+main{
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 1.6rem;
+}
+.time{
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.8rem;
+    line-height: 10.3rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.card{
+    position: relative;
+
+    width: 22.8rem;
+    height: 10.8rem;
+    padding: 2.2rem 4rem;
+
+    background: rgba(66, 211, 255, 0.13);
+    border-radius: 999.9rem;
+}
+.hud{
+    position: absolute;
+
+    display: flex;
+    gap: 3.2rem;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    right: 4rem;
+    bottom: 3.2rem;
+
+    width: 6.4rem;
+    height: 6.4rem;
+}
+.soundHud{
+    position: relative;
+}
+.sound{
+    position: absolute;
+}
+ .hide{
+        visibility: hidden;
+        opacity: 0;
+}
